@@ -23,6 +23,7 @@ steam 게임 trombone champ을 위한 컨트롤러 제작.
 
 <H2>참고 자료</H2>
 https://usb.org/document-library/usb-20-specification
+https://wiki.osdev.org/Universal_Serial_Bus#USB_Device.28s.29
 
 <H2>재료</H2>
 슬라이더 전위계 https://ko.aliexpress.com/item/1005003438143940.html
