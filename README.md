@@ -1,18 +1,18 @@
 # Trombone_Slider
 
-steam 게임 trombone champ을 위한 컨트롤러 제작.
+<H1>steam 게임 trombone champ을 위한 컨트롤러 제작.</H1>
 
-사전 조사
+<H2>사전 조사</H2>
 1. trombone champ는 마우스 커서의 y축을 조절하여 플레이함.
 2. 외부기기를 통해서 마우스 커서의 y축을 조절할 수 있는 방법을 모색.
 3. 마우스는 이전 스캔 위치에서 이동한 방향과 거리를 주기에 부적합.
 4. 디지타이저 기기가 마우스 커서의 x,y축을 전송함.
 
-HID 디지타이저 보고서를 전송하여 Y축을 컨트롤하는 장치를 제작
+<H2>HID 디지타이저 보고서를 전송하여 Y축을 컨트롤하는 장치를 제작</H2>
 https://usb.org/document-library/usb-20-specification
 USB 2.0과 HID 정보를 확인하여 작성함.
 
-계획
+<H2>계획</H2>
 1. stm32f411를 사용하는 black pill 보드가 시중에서 구할 수 있는 USB Device 장치 중 제일 적합함.
 2. 해당 기기에 기존 ST Micronics사에서 지원해주는 HID 클래스를 올려서 사용.
 3. USB의 Device Descriptors, Configuration Descriptors, Interface Descriptors, Endpoinit Descriptors, String Descriptors와 HID Descriptors를 수정하는 것으로 디지타이저로 인식.
