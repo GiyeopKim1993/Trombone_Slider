@@ -1,6 +1,6 @@
 # Trombone_Slider
 
-<H1>목표</H1>
+<H2>목표</H2>
 steam 게임 trombone champ을 위한 컨트롤러 제작.
 
 <H2>사전 조사</H2>
