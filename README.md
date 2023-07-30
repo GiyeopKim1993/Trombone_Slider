@@ -1,6 +1,7 @@
 # Trombone_Slider
 
-<H1>steam 게임 trombone champ을 위한 컨트롤러 제작.</H1>
+<H1>목표</H1>
+steam 게임 trombone champ을 위한 컨트롤러 제작.
 
 <H2>사전 조사</H2>
 1. trombone champ는 마우스 커서의 y축을 조절하여 플레이함.
